@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <img class="imagem-principal" src="/images/drawers.jpg" alt="imagem mesa">
+    <section>
+      <h1>Shift the overall look and feel by adding these wonderful
+        touches to furniture in your home</h1>
+
+      <h2>Ever been in a room and felt like something was missing? Perhaps
+        it felt slightly bare and uninviting. I’ve got some simple tips
+        to help you make any room feel complete.</h2>
+
+      <div id="michelle" class="container-michelle">
+        <img src="/images/avatar-michelle.jpg" alt="imagem michelle">
+        <div class="sub-container-michelle">
+          <div class="palavras">
+            <span class="span1">Michelle Appleton</span>
+            <span class="span2">28 Jun 2020</span>
+            <div id="clickdekstop" class="container-compartilhar-click2">
+              <div class="container-tresimagens">
+                <span class="span3">SHARE</span>
+                <a href="https://www.facebook.com/"> <img src="/images/icon-facebook.png" alt="imagem facebook"></a>
+                <a href="https://twitter.com/"><img src="/images/icon-twitter.png" alt="imageme twitter"></a>
+                <a href="https://pinterest.com/"><img src="/images/icon-pinterest.png" alt="imagem pinterest"></a>
+              </div>
+            </div>
+          </div>
+          <div class="container-compartilhar" onclick="compartilharclicado()">
+            <img src="/images/icon-share.png" alt="imagem compartilhar">
+          </div>
+        </div>
+      </div>
+
+      <div id="click" class="container-compartilhar-click">
+        <div class="container-tresimagens">
+          <span class="span3">SHARE</span>
+          <img src="/images/icon-facebook.png" alt="imagem facebook">
+          <img src="/images/icon-twitter.png" alt="imageme twitter">
+          <img src="/images/icon-pinterest.png" alt="imagem pinterest">
+        </div>
+        <div class="container-compartilhar2">
+          <img src="/images/icons8-arrow-48.png" alt="imagem compartilhar" onclick="compartilharclicado()">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Evandro1v</a>.
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
